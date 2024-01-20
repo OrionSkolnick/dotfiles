@@ -20,7 +20,6 @@ export EDITOR=nvim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 alias vim="echo GRAHHH"
-alias discord="apulse discord"
 alias minecraf="prime-run prismlauncher"
 alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias mpv="mpv -ao=jack"

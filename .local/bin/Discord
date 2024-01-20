@@ -1,0 +1,4 @@
+#!/bin/sh
+
+apulse discord && killall -s SIGKILL mpd-discord-rpc &
+mpd-discord-rpc
