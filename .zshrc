@@ -24,3 +24,4 @@ alias minecraf="prime-run prismlauncher"
 alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 alias mpv="mpv -ao=jack"
 alias tv="xrandr --output eDP1 --auto --output HDMI-1-0 --mode 1920x1080 --left-of eDP1"
+alias update="doas mount /boot/efi && paru && doas umount /boot/efi"
