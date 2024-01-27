@@ -1,1 +1,4 @@
 mpd_music_dir = "~/Music/MPD"
+external_editor = /usr/bin/nvim
+use_console_editor = yes
+colors_enabled = yes
