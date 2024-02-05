@@ -17,6 +17,14 @@ bindkey -v
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
 
+#PLUGINS
+. /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+. /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
+# change suggestion color
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=''
+. /usr/share/zsh/plugins/zsh-system-clipboard/zsh-system-clipboard.zsh
+#END PLUGINS
+
 zstyle :compinstall filename '/home/dorian/.zshrc'
 
 autoload -Uz compinit
@@ -29,10 +37,7 @@ TERM=xterm-256color
 export EDITOR=nvim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
-. /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
-# change suggestion color
-#ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 
 alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
-source ~/.alias_zsh
+. ~/.alias_zsh
