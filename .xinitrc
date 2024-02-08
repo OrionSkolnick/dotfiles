@@ -6,3 +6,4 @@ dunst -conf ~/.dunstrc & #notifications
 slstatus & #bar for DWM
 
 dwm #tiling WM
+mpd --kill #killing mpd
