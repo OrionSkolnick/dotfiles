@@ -36,7 +36,6 @@ TERM=xterm-256color
 export EDITOR=nvim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
-
 alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
 . ~/.alias_zsh
