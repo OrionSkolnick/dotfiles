@@ -1,5 +1,6 @@
 #!/bin/sh
 #feh --recursive --bg-fill --randomize --no-fehbg ~/.wallpapers & #random wallpaper
+
 sh ~/.fehbg
 mpd ~/.config/mpd/localhost.conf & #music
 picom & #compositor
