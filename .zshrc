@@ -31,7 +31,6 @@ autoload -Uz compinit
 compinit
 
 PROMPT="%F%f%~%F{blue} $ %f"
-export PATH_TO_FX=/home/dorian/Coding/Java/libs/javafx-sdk-21.0.1/lib
 TERM=xterm-256color
 export EDITOR=nvim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
