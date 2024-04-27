@@ -32,7 +32,7 @@ compinit
 
 PROMPT="%F%f%~%F{blue} $ %f"
 TERM=xterm-256color
-export STEAM_COMPAT_DATA_PATH=~/.local/share/Steam/steamapps/compatdata
+export STEAM_COMPAT_CLIENT_INSTALL_PATH=~/.steam/steam/steamapps/compatdata
 export EDITOR=nvim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
