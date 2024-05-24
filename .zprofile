@@ -1,6 +1,6 @@
 export PATH=$PATH:~/.local/bin:~/.cargo/bin
-export USBDEVICE=UUID=4f3e8c63-34b0-4850-9795-fdee15d10932
+export USBDEVICE=UUID=a4855b19-3796-4ef2-a577-f0e0cf931968
 export MAPPEDUSBDEVICE=usb
-export MOUNTPOINT=/mnt/usb/
+export CRYPTUSBMOUNTPOINT=/mnt/usb/
 
 startx
