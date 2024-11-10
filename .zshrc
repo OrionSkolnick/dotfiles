@@ -39,6 +39,6 @@ export EDITOR=nvim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export GDWEAVEPATH=/home/dorian/.local/share/Steam/steamapps/common/WEBFISHING/GDWeave
 
-alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME' #the command "config pull" will update your config!!!
 
 . ~/.alias_zsh
