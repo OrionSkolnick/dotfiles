@@ -37,6 +37,7 @@ export STEAM_COMPAT_DATA_PATH=~/.steam/steam/steamapps/compatdata
 export STEAM_COMPAT_CLIENT_INSTALL_PATH=~/.steam/steam/
 export EDITOR=nvim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+export GDWEAVEPATH=/home/dorian/.local/share/Steam/steamapps/common/WEBFISHING/GDWeave
 
 alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
