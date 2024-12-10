@@ -6,7 +6,7 @@ mpd ~/.config/mpd/localhost.conf &                          #music
 picom &                                                     #compositor
 dunst &                                                     #notifications
 slstatus &                                                  #bar for DWM
-[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources # add Xresources
+[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources #add Xresources
 
 autocutsel -fork &                    #clipboard manager
 autocutsel -selection PRIMARY -fork & #clipboard manager
