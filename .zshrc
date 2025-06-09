@@ -34,8 +34,7 @@ PROMPT="%F%f%~%F{blue} $ %f"
 TERM=xterm-256color
 export EDITOR=vim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-export PATH_TO_FX=/home/dorian/Coding/Java/libs/javafx-sdk-24.0.1/lib/
-
+export PATH_TO_FX=/home/dorian/Coding/Java/libs/javafx-sdk-21.0.7/lib/
 alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME' #the command "config pull" will update your config!!!
 
 . ~/.alias_zsh
