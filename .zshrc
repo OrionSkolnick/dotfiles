@@ -32,12 +32,9 @@ compinit
 
 PROMPT="%F%f%~%F{blue} $ %f"
 TERM=xterm-256color
-#export STEAM_COMPAT_CLIENT_INSTALL_PATH=~/.steam/steam/steamapps/compatdata
-export STEAM_COMPAT_DATA_PATH=~/.steam/steam/steamapps/compatdata
-export STEAM_COMPAT_CLIENT_INSTALL_PATH=~/.steam/steam/
-export EDITOR=nvim;
+export EDITOR=vim;
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-export GDWEAVEPATH=/home/dorian/.local/share/Steam/steamapps/common/WEBFISHING/GDWeave
+export PATH_TO_FX=/home/dorian/Coding/Java/libs/javafx-sdk-24.0.1/lib/
 
 alias config='git --git-dir=$HOME/.dotfiles --work-tree=$HOME' #the command "config pull" will update your config!!!
 
